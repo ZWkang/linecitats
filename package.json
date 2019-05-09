@@ -1,0 +1,29 @@
+{
+  "name": "linecitats",
+  "version": "0.0.0",
+  "description": "one common line to generator a static server",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZWkang/linecitats.git"
+  },
+  "bin": {
+    "linecitats": "cli.js"
+  },
+  "author": "ZWkang",
+  "license": "ISC",
+  "keywords": [
+    "cli",
+    "cli-app"
+  ],
+  "bugs": {
+    "url": "https://github.com/ZWkang/linecitats/issues"
+  },
+  "homepage": "https://github.com/ZWkang/linecitats#readme",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
