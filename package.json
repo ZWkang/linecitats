@@ -25,5 +25,14 @@
   "homepage": "https://github.com/ZWkang/linecitats#readme",
   "devDependencies": {
     "ava": "^0.25.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "consolidate": "^0.15.1",
+    "dayjs": "^1.8.15",
+    "debug": "^4.1.1",
+    "glob": "^7.1.4",
+    "koa": "^2.8.1",
+    "koa-compress": "^3.0.0"
   }
 }
