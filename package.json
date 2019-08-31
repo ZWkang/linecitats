@@ -27,11 +27,12 @@
     "ava": "^0.25.0"
   },
   "dependencies": {
+    "update-notifier": "^3.0.1",
     "chalk": "^2.4.2",
     "commander": "^3.0.0",
     "dayjs": "^1.8.15",
-    "debug": "^4.1.1",
     "get-port": "^5.0.0",
+    "debug": "^4.1.1",
     "koa": "^2.8.1",
     "koa-compose": "^4.1.0"
   }

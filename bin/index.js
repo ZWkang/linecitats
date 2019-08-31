@@ -1,15 +1,16 @@
 #!/usr/bin/env node
 
-const commander = require("commander");
 const { exec } = require("child_process");
 
+const commander = require("commander");
+const updateNotifier = require("update-notifier");
+
+const pkg = require("../package.json");
 const linecitats = require("../lib/server");
 
 // 解析 Node 进程执行时的参数
 commander
-  .version("1.0.0")
-  // .usage("[options]")
-  // .arguments("<source>")
+  .version(pkg.version)
   .option("-p, --port <n>", "server port")
   .option("-o, --host <n>", "server host")
   .option("-r, --rootpath <n>", "server rootpath")
@@ -36,3 +37,5 @@ if (commander.open) {
 
   exec(`${systemOrder} ${link}`);
 }
+
+updateNotifier({ pkg }).notify();
