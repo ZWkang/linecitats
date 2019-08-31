@@ -1,6 +1,6 @@
 {
   "name": "linecitats",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "one common line to generator a static server",
   "main": "index.js",
   "scripts": {
